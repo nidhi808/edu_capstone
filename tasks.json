@@ -118,5 +118,125 @@
       "type": "missing_deadline",
       "severity": 0.8
     }
+  },
+  {
+    "id": 13,
+    "title": "soon",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "ambiguity",
+      "severity": 0.7
+    }
+  },
+  {
+    "id": 14,
+    "title": "soon",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "ambiguity",
+      "severity": 0.7
+    }
+  },
+  {
+    "id": 15,
+    "title": "as needed",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "ambiguity",
+      "severity": 0.7
+    }
+  },
+  {
+    "id": 16,
+    "title": "as needed",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "ambiguity",
+      "severity": 0.7
+    }
+  },
+  {
+    "id": 17,
+    "title": "as needed",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "ambiguity",
+      "severity": 0.7
+    }
+  },
+  {
+    "id": 18,
+    "title": "reasonable time",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "ambiguity",
+      "severity": 0.7
+    }
+  },
+  {
+    "id": 19,
+    "title": "TBD",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "ambiguity",
+      "severity": 0.7
+    }
+  },
+  {
+    "id": 20,
+    "title": "optional",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "ambiguity",
+      "severity": 0.7
+    }
+  },
+  {
+    "id": 21,
+    "title": "optional",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "ambiguity",
+      "severity": 0.7
+    }
+  },
+  {
+    "id": 22,
+    "title": "optional",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "ambiguity",
+      "severity": 0.7
+    }
+  },
+  {
+    "id": 23,
+    "title": "Conflict detected: The document uses both 'optional' and 'required'. Clarify the true requirement.",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "contradiction",
+      "severity": 0.9
+    }
+  },
+  {
+    "id": 24,
+    "title": "One or more deadlines are marked as TBD or not specified.",
+    "assignee": "unknown",
+    "due_date": null,
+    "meta": {
+      "type": "missing_deadline",
+      "severity": 0.8
+    }
   }
 ]
