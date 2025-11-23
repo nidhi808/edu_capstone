@@ -1,0 +1,21 @@
+## Payment Module PRD
+
+Overview:
+The Payment Module must be implemented soon and should support refunds as needed. 
+The module will be optional for the v1 release but required for production. 
+The billing deadline is TBD. Acceptance criteria are still not defined.
+
+Scope:
+- Support credit card payments and bank transfer.
+- Refunds: process refunds as needed within a reasonable time.
+- Integration: Alice will handle integration with the payment gateway.
+
+Requirements:
+1. The system should optimize transactions for speed.
+2. Payment retries will be optional and handled later.
+3. For compliance, encryption must be implemented.
+
+Notes:
+The word "soon" and "as needed" are vague. This document also contains a conflict 
+between optional and required behavior. Owners are partially specified. 
+No acceptance criteria are provided.

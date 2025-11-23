@@ -1,0 +1,181 @@
+{
+  "doc1.txt": {
+    "timestamp": "2025-11-23T08:12:51.699595Z",
+    "parsed": {
+      "title": "sample_docs/doc1.txt",
+      "sections": [
+        {
+          "heading": "Payment Module PRD",
+          "text": "\nOverview:\nThe Payment Module must be implemented soon and should support refunds as needed. \nThe module will be optional for the v1 release but required for production. \nThe billing deadline is TBD. Acceptance criteria are still not defined.\n\nScope:\n- Support credit card payments and bank transfer.\n- Refunds: process refunds as needed within a reasonable time.\n- Integration: Alice will handle integration with the payment gateway.\n\nRequirements:\n1. The system should optimize transactions for speed.\n2. Payment retries will be optional and handled later.\n3. For compliance, encryption must be implemented.\n\nNotes:\nThe word \"soon\" and \"as needed\" are vague. This document also contains a conflict \nbetween optional and required behavior. Owners are partially specified. \nNo acceptance criteria are provided.\n"
+        }
+      ],
+      "raw": "## Payment Module PRD\n\nOverview:\nThe Payment Module must be implemented soon and should support refunds as needed. \nThe module will be optional for the v1 release but required for production. \nThe billing deadline is TBD. Acceptance criteria are still not defined.\n\nScope:\n- Support credit card payments and bank transfer.\n- Refunds: process refunds as needed within a reasonable time.\n- Integration: Alice will handle integration with the payment gateway.\n\nRequirements:\n1. The system should optimize transactions for speed.\n2. Payment retries will be optional and handled later.\n3. For compliance, encryption must be implemented.\n\nNotes:\nThe word \"soon\" and \"as needed\" are vague. This document also contains a conflict \nbetween optional and required behavior. Owners are partially specified. \nNo acceptance criteria are provided.\n"
+    },
+    "issues": [
+      {
+        "type": "ambiguity",
+        "section": "Payment Module PRD",
+        "text": "soon",
+        "context": "The Payment Module must be implemented soon and should support refunds as needed.",
+        "severity": 0.7,
+        "suggested_fix": "Replace 'soon' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "type": "ambiguity",
+        "section": "Payment Module PRD",
+        "text": "soon",
+        "context": "must be implemented.\n\nNotes:\nThe word \"soon\" and \"as needed\" are vague. This docume",
+        "severity": 0.7,
+        "suggested_fix": "Replace 'soon' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "type": "ambiguity",
+        "section": "Payment Module PRD",
+        "text": "as needed",
+        "context": "emented soon and should support refunds as needed. \nThe module will be optional for the v",
+        "severity": 0.7,
+        "suggested_fix": "Replace 'as needed' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "type": "ambiguity",
+        "section": "Payment Module PRD",
+        "text": "as needed",
+        "context": "nk transfer.\n- Refunds: process refunds as needed within a reasonable time.\n- Integration",
+        "severity": 0.7,
+        "suggested_fix": "Replace 'as needed' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "type": "ambiguity",
+        "section": "Payment Module PRD",
+        "text": "as needed",
+        "context": "plemented.\n\nNotes:\nThe word \"soon\" and \"as needed\" are vague. This document also contains",
+        "severity": 0.7,
+        "suggested_fix": "Replace 'as needed' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "type": "ambiguity",
+        "section": "Payment Module PRD",
+        "text": "reasonable time",
+        "context": "nds: process refunds as needed within a reasonable time.\n- Integration: Alice will handle integ",
+        "severity": 0.7,
+        "suggested_fix": "Replace 'reasonable time' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "type": "ambiguity",
+        "section": "Payment Module PRD",
+        "text": "TBD",
+        "context": "or production. \nThe billing deadline is TBD. Acceptance criteria are still not defi",
+        "severity": 0.7,
+        "suggested_fix": "Replace 'TBD' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "type": "ambiguity",
+        "section": "Payment Module PRD",
+        "text": "optional",
+        "context": "refunds as needed. \nThe module will be optional for the v1 release but required for pro",
+        "severity": 0.7,
+        "suggested_fix": "Replace 'optional' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "type": "ambiguity",
+        "section": "Payment Module PRD",
+        "text": "optional",
+        "context": "s for speed.\n2. Payment retries will be optional and handled later.\n3. For compliance, e",
+        "severity": 0.7,
+        "suggested_fix": "Replace 'optional' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "type": "ambiguity",
+        "section": "Payment Module PRD",
+        "text": "optional",
+        "context": "ument also contains a conflict \nbetween optional and required behavior. Owners are parti",
+        "severity": 0.7,
+        "suggested_fix": "Replace 'optional' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "type": "contradiction",
+        "description": "Conflict detected: The document uses both 'optional' and 'required'. Clarify the true requirement.",
+        "severity": 0.9,
+        "suggested_fix": "Decide if the feature is optional OR required and update all sections consistently."
+      },
+      {
+        "type": "missing_deadline",
+        "description": "One or more deadlines are marked as TBD or not specified.",
+        "severity": 0.8,
+        "suggested_fix": "Specify concrete deadlines or a decision owner and timeframe."
+      }
+    ],
+    "fixes": [
+      {
+        "action": "rewrite",
+        "section": "Payment Module PRD",
+        "original": "soon",
+        "suggestion": "Replace 'soon' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "action": "rewrite",
+        "section": "Payment Module PRD",
+        "original": "soon",
+        "suggestion": "Replace 'soon' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "action": "rewrite",
+        "section": "Payment Module PRD",
+        "original": "as needed",
+        "suggestion": "Replace 'as needed' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "action": "rewrite",
+        "section": "Payment Module PRD",
+        "original": "as needed",
+        "suggestion": "Replace 'as needed' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "action": "rewrite",
+        "section": "Payment Module PRD",
+        "original": "as needed",
+        "suggestion": "Replace 'as needed' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "action": "rewrite",
+        "section": "Payment Module PRD",
+        "original": "reasonable time",
+        "suggestion": "Replace 'reasonable time' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "action": "rewrite",
+        "section": "Payment Module PRD",
+        "original": "TBD",
+        "suggestion": "Replace 'TBD' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "action": "rewrite",
+        "section": "Payment Module PRD",
+        "original": "optional",
+        "suggestion": "Replace 'optional' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "action": "rewrite",
+        "section": "Payment Module PRD",
+        "original": "optional",
+        "suggestion": "Replace 'optional' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "action": "rewrite",
+        "section": "Payment Module PRD",
+        "original": "optional",
+        "suggestion": "Replace 'optional' with a concrete specification (e.g., a date, SLA, or exact behavior)."
+      },
+      {
+        "action": "clarify_scope",
+        "original": "Conflict detected: The document uses both 'optional' and 'required'. Clarify the true requirement.",
+        "suggestion": "Decide if the feature is optional OR required and update all sections consistently."
+      },
+      {
+        "action": "add_acceptance",
+        "original": "One or more deadlines are marked as TBD or not specified.",
+        "suggestion": "Specify concrete deadlines or a decision owner and timeframe."
+      }
+    ]
+  }
+}
